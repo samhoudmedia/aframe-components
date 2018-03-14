@@ -1,0 +1,25 @@
+{
+  "name": "aframe-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple A-Frame boilerplate with server. ",
+  "scripts": {
+    "start": "browser-sync start -s -f index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhoudmedia/aframe-boilerplate.git"
+  },
+  "keywords": [
+    "a-frame",
+    "boilerplate"
+  ],
+  "author": "Danny de Vries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samhoudmedia/aframe-boilerplate/issues"
+  },
+  "homepage": "https://github.com/samhoudmedia/aframe-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
