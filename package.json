@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple A-Frame boilerplate with server. ",
   "scripts": {
-    "start": "browser-sync start -s -f index.html"
+    "start": "browser-sync start -s -f . --directory"
   },
   "repository": {
     "type": "git",
