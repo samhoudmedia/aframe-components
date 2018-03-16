@@ -9,8 +9,10 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-  <a-scene>
-    <a-entity hello-world></a-entity>
+  <a-scene stats>
+    <a-entity log="event: anEvent; message: 'Init'"></a-entity>
+    <a-entity log__helloworld="event: worldEvent; message: Hello, World! 1"></a-entity>
+    <a-entity log__metaverse="message: Hello, World! 2"></a-entity>
   </a-scene>
 </body>
 </html>
